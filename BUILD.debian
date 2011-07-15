@@ -1,0 +1,9 @@
+# build_netserva v0.0.2 markc@renta.net 2005-12-18
+#
+# Make sure the apache2-prefork-dev and php5-dev packages are installed.
+
+apxs2 -i -a -c  \
+ -I/usr/include/php5 \
+ -I/usr/include/php5/Zend \
+ -I/usr/include/php5/TSRM \
+ mod_netserva.c
