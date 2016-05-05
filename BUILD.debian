@@ -1,9 +1,12 @@
 # build_netserva v0.0.3 markc@renta.net 20160415
 # Updated for Ubuntu Xenial (16.04)
-# Make sure the apache2-dev and php5-dev packages are installed.
+# Make sure the apache2-dev package is installed.
 
-apxs2 -i -a -c  \
- -I/usr/include/php/20131226 \
- -I/usr/include/php/20131226/Zend \
- -I/usr/include/php/20131226/TSRM \
- mod_netserva.c
+apxs2 -i -a -c mod_netserva.c
+
+# this is only needed when PHP is enabled, hasn't worked for years
+#apxs2 -i -a -c  \
+# -I/usr/include/php/20131226 \
+# -I/usr/include/php/20131226/Zend \
+# -I/usr/include/php/20131226/TSRM \
+# mod_netserva.c
