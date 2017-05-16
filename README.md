@@ -30,5 +30,5 @@ For extra debugging these can be added towards the end of the file.
 
 * Source: http://github.com/markc/mod-netserva
 * Version: v0.0.6 20110715
-* Copyright: (C) 2011 Mark Constable mc@nodality.org
-* License: AGPLv3 - http://www.gnu.org/licenses/agpl-3.0.txt
+* Copyright: (C) 2011-2017 Mark Constable <markc@renta.net>
+* License: AGPL-3.0 - http://www.gnu.org/licenses/agpl-3.0.txt
